@@ -4,6 +4,7 @@ require 'json'
 module GoToMeeting
   class Client
 
+    include HTTParty
     include GoToMeeting::Attendees
     include GoToMeeting::Groups
     include GoToMeeting::Meetings
