@@ -5,6 +5,8 @@ require "go_to_meeting/attendees"
 require "go_to_meeting/groups"
 require "go_to_meeting/meetings"
 require "go_to_meeting/organizers"
+require 'go_to_meeting/client'
+require 'go_to_meeting/error'
 
 module GoToMeeting
 
