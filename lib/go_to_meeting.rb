@@ -7,6 +7,7 @@ require "go_to_meeting/meetings"
 require "go_to_meeting/organizers"
 require 'go_to_meeting/client'
 require 'go_to_meeting/error'
+require 'go_to_meeting/utils'
 
 module GoToMeeting
 
