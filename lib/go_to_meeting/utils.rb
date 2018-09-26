@@ -39,7 +39,7 @@ module GoToMeeting
               response = send(m, *args)
               Utils.raise_if_error!(response)
             rescue Net::OpenTimeout, Net::ReadTimeout, Timeout::Error => _e
-              raise ::ZoomUs::GatewayTimeout.new
+              raise ::GoToMeeting::GatewayTimeout.new
             end
           end
         end

@@ -13,7 +13,7 @@ module GoToMeeting
 
     def new(params = {})
       @access_token = params.fetch(:access_token, '')
-      ZoomUs::Client.new(
+      GoToMeeting::Client.new(
         :access_token => @access_token
       )
     end
