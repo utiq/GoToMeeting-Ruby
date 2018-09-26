@@ -10,7 +10,7 @@ module GoToMeeting
     include GoToMeeting::Meetings
     include GoToMeeting::Organizers
 
-    base_uri 'https://api.getgo.com/G2M/rest/'
+    base_uri 'https://api.getgo.com/G2M/rest'
 
     def initialize(*args)
 

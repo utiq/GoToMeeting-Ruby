@@ -16,7 +16,7 @@ module GoToMeeting
       end
 
       def parse_response(http_response)
-        response = http_response.parsed_response
+        response = http_response.body
         # Mocked response returns a string
         response.kind_of?(Hash) ? response : JSON.parse(response)
       end
